@@ -1,0 +1,99 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+}
+.header{
+background-color: #3f72af;
+padding-left: 13%;
+padding-right: 5%;
+}
+.logo{
+max-width: 100px;
+max-height: 100px;
+}
+.nav{
+  height: 100%;
+}
+.nav button{
+  color: aliceblue;
+  border: none;
+  background-color: inherit;
+  padding: 10px 30px 10px 30px;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.nav button :link :hover{
+  background-color: black;
+  color: black;
+}
+.main{
+  background-color: #f9f7f7;
+  padding-left: 15%;
+  padding-right: 12%;
+}
+h1{
+  max-width: 50%;
+  font-size: 600%;
+  margin-bottom: 0px;
+}
+p{
+  font-size: larger;
+  color: teal;
+}
+span{
+  color: lightslategrey;
+}
+.main button{
+  background-color: inherit;
+  font-size: larger;
+  padding: 15px 25px;
+  border: solid black 2px;
+  cursor: pointer;
+}
+.main-photo img{
+  border: none;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer{
+  color: antiquewhite;
+  background-color: #112d4e;
+  padding-left: 10%;
+}
+.self-ad h5{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.self-ad h3{
+margin-top: -15px;
+font-family: fantasy;
+font-size: 200%;
+}
+.footer button{
+  color: antiquewhite;
+  border: none;
+  background-color: inherit;
+  font-size: 1.2em;
+  font-weight: 700%;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+.footer button img{
+  width: 70px;
+  height: 70px;
+  background: inherit;
+}
+.fb img{
+  border: none;
+  border-radius: 70%;
+}
+.long{
+  background-color: inherit;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
